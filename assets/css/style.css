@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../images/background.jpg")
+}
+
+.container {
+	background-color:darkblue;
+	padding-top: 15px;
+}
+
+.container, header {
+	color: white;
+	padding-bottom: 20px;
+	text-align: center;
+}	
+
+header {
+	font-size: 45px;
+	
+}
+
+h1, h3, span{
+	font-weight: bold;
+}
+
+
+h1{
+	font-size: 30pt;
+}
+
+ol{
+	list-style: decimal inside; 
+}
+
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+
+/* Classes */
+
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+/* IDs */
+#blue{
+	color:blue;
+}
+#green{
+	color: green;
+}
+#red{
+	color: red;
+}
+#yellow{
+	color: yellow;
+}
